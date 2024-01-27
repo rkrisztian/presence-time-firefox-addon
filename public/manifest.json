@@ -1,0 +1,73 @@
+{
+	"manifest_version": 2,
+	"name": "Presence time filler for ProTime",
+	"version": "0.0.1",
+
+	"description": "Fills in the presence time for a day in ProTime based on activity entries",
+
+	"icons": {
+		"16": "icons/icon-16-light.svg",
+		"32": "icons/icon-32-light.svg",
+		"48": "icons/icon-48-light.svg",
+		"96": "icons/icon-96-light.svg"
+	},
+
+	"permissions": [
+		"activeTab"
+	],
+
+	"browser_action": {
+		"default_icon": {
+			"16": "icons/icon-16-light.svg",
+			"32": "icons/icon-32-light.svg",
+			"48": "icons/icon-48-light.svg",
+			"96": "icons/icon-96-light.svg"
+		},
+		"theme_icons": [
+			{
+				"light": "icons/icon-16-light.svg",
+				"dark": "icons/icon-16-dark.svg",
+				"size": 16
+			},
+			{
+				"light": "icons/icon-32-light.svg",
+				"dark": "icons/icon-32-dark.svg",
+				"size": 32
+			},
+			{
+				"light": "icons/icon-48-light.svg",
+				"dark": "icons/icon-48-dark.svg",
+				"size": 48
+			},
+			{
+				"light": "icons/icon-96-light.svg",
+				"dark": "icons/icon-96-dark.svg",
+				"size": 96
+			}
+		],
+		"default_title": "Presence time filler for ProTime"
+	},
+
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": [
+				"content.js"
+			]
+		}
+	],
+
+	"background": {
+		"scripts": [
+			"background.js"
+		]
+	},
+
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "presencetimefiller@rkrisztian"
+		}
+	}
+}

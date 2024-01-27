@@ -1,0 +1,18 @@
+{
+	"name": "presence-time-firefox-addon",
+	"version": "0.0.1",
+	"private": true,
+	"license:": "MIT",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"package": "rm -rf build && mkdir -p build; (cd dist && zip -r ../build/presence-time-firefox-addon.xpi *)",
+		"package-src": "rm -f build/presence-time-firefox-addon-src.zip && zip -r build/presence-time-firefox-addon-src.zip * .[^.]* -x node_modules\\* -x build\\* -x dist\\* -x .git\\*"
+	},
+	"devDependencies": {
+		"vite": "^5.0.8"
+	}
+}

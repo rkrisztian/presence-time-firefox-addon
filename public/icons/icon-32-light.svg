@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" version="1.1">
+  <circle cx="16" cy="16" r="15" fill="none" stroke="black" stroke_width="2"/>
+  <line x1="16" y1="16" x2="16" y2="8" stroke="black" stroke_width="2"/>
+  <line x1="16" y1="16" x2="24" y2="16" stroke="black" stroke_width="2"/>
+  <circle cx="16.0" cy="2.0" r="1" fill="black"/>
+  <circle cx="23.0" cy="3.875644347017859" r="1" fill="black"/>
+  <circle cx="28.124355652982143" cy="9.0" r="1" fill="black"/>
+  <circle cx="30.0" cy="16.0" r="1" fill="black"/>
+  <circle cx="28.124355652982143" cy="23.0" r="1" fill="black"/>
+  <circle cx="23.0" cy="28.12435565298214" r="1" fill="black"/>
+  <circle cx="16.0" cy="30.0" r="1" fill="black"/>
+  <circle cx="9.000000000000004" cy="28.124355652982143" r="1" fill="black"/>
+  <circle cx="3.8756443470178574" cy="23.0" r="1" fill="black"/>
+  <circle cx="2.0" cy="16.0" r="1" fill="black"/>
+  <circle cx="3.875644347017859" cy="8.999999999999998" r="1" fill="black"/>
+  <circle cx="8.999999999999993" cy="3.8756443470178628" r="1" fill="black"/>
+</svg>

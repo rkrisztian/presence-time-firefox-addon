@@ -1,0 +1,20 @@
+# EditorConfig helps us keep consistent coding styles between different editors and IDEs (http://editorconfig.org).
+
+# Do not look for deeper placed ".editorconfig" files.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = tab
+indent_size = 4
+tab_width = 4
+trim_trailing_whitespace = true
+max_line_length = 130
+
+[*.js]
+continuation_indent_size = 4
+
+[*.json]
+max_line_length = 9999

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" version="1.1">
+  <rect width="48" height="48" fill="black"/>
+  <circle cx="24.0" cy="24.0" r="22.0" fill="none" stroke="white" stroke_width="2"/>
+  <line x1="24.0" y1="24.0" x2="24.0" y2="13.0" stroke="white" stroke_width="2"/>
+  <line x1="24.0" y1="24.0" x2="35.0" y2="24.0" stroke="white" stroke_width="2"/>
+  <circle cx="24.0" cy="4.199999999999999" r="1" fill="white"/>
+  <circle cx="33.900000000000006" cy="6.852697005068116" r="1" fill="white"/>
+  <circle cx="41.14730299493189" cy="14.100000000000001" r="1" fill="white"/>
+  <circle cx="43.8" cy="24.0" r="1" fill="white"/>
+  <circle cx="41.14730299493189" cy="33.9" r="1" fill="white"/>
+  <circle cx="33.900000000000006" cy="41.147302994931884" r="1" fill="white"/>
+  <circle cx="24.0" cy="43.8" r="1" fill="white"/>
+  <circle cx="14.100000000000003" cy="41.14730299493189" r="1" fill="white"/>
+  <circle cx="6.852697005068112" cy="33.9" r="1" fill="white"/>
+  <circle cx="4.199999999999999" cy="24.000000000000004" r="1" fill="white"/>
+  <circle cx="6.852697005068116" cy="14.099999999999998" r="1" fill="white"/>
+  <circle cx="14.09999999999999" cy="6.852697005068119" r="1" fill="white"/>
+</svg>
